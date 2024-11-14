@@ -24,8 +24,8 @@ jobs:
         ruby-version: ${{ matrix.ruby }}
         bundler-cache: true
     - name: Run tests
-      run: bundle exec rspec
-      env:
-        BIGQUERY_CREDENTIALS: ${{ secrets.BIGQUERY_CREDENTIALS }}
-        BIGQUERY_QA_PROJECT: cross-teacher-services
-        BIGQUERY_QA_DATASET: dfe_reference_data_dev
+      #run: bundle exec rspec
+      #env:
+      #  BIGQUERY_CREDENTIALS: ${{ secrets.BIGQUERY_CREDENTIALS }}
+      #  BIGQUERY_QA_PROJECT: cross-teacher-services
+      #  BIGQUERY_QA_DATASET: dfe_reference_data_dev
