@@ -1,5 +1,9 @@
 # Changelog
 
+## [v3.6.10](https://github.com/goodviber/dfe-reference/tree/v3.6.10) (2024-11-15)
+
+[Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.9...v3.6.10)
+
 ## [v3.6.9](https://github.com/goodviber/dfe-reference/tree/v3.6.9) (2024-11-15)
 
 [Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.8...v3.6.9)
