@@ -17,6 +17,8 @@ jobs:
     - name: Run linters with autofix
       run: bundle exec rubocop --auto-correct-all
     - name: Push any fixes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.email "lint-bot"
         git config --global user.name "lint-bot"
