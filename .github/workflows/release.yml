@@ -27,7 +27,7 @@ jobs:
     - name: Create GitHub Release
       env:
         GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: gh release create ${{ github.ref_name }} --title "" reference_data_${{ github.ref_name }}.sqlite3 --notes-from-tag
+      run: gh release create ${{ github.head_ref }} --title "" reference_data_${{ github.head_ref }}.sqlite3 --notes-from-tag
     #- name: Upload SQLite Database
     #  uses: actions/upload-artifact@v4
     #  with:
