@@ -38,6 +38,8 @@ task :prepare_release, %i[version] do |_, args|
 
   sh 'bundle', 'exec', 'github_changelog_generator', '--no-verbose', '--user', 'goodviber', '--project', 'dfe-reference', '--output', 'CHANGELOG.md', '--future-release', v_version
 
+  sh 'git', 'commit', '-a', '-m', v_version
+
   puts <<~EOMESSAGE
     Release #{v_version} is almost ready! Before you push:
 
