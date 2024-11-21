@@ -1,11 +1,12 @@
 # Changelog
 
-## [v3.6.13](https://github.com/goodviber/dfe-reference/tree/v3.6.13) (2024-11-21)
+## [v3.6.11](https://github.com/goodviber/dfe-reference/tree/v3.6.11) (2024-11-21)
 
-[Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.12...v3.6.13)
+[Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.12...v3.6.11)
 
 **Merged pull requests:**
 
+- update rakefile [\#3](https://github.com/goodviber/dfe-reference/pull/3) ([goodviber](https://github.com/goodviber))
 - sqlite3 suffix [\#2](https://github.com/goodviber/dfe-reference/pull/2) ([goodviber](https://github.com/goodviber))
 
 ## [v3.6.12](https://github.com/goodviber/dfe-reference/tree/v3.6.12) (2024-11-19)
