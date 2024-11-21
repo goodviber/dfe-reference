@@ -1,5 +1,13 @@
 # Changelog
 
+## [v3.6.16](https://github.com/goodviber/dfe-reference/tree/v3.6.16) (2024-11-21)
+
+[Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.15...v3.6.16)
+
+**Merged pull requests:**
+
+- V3.6.15 [\#6](https://github.com/goodviber/dfe-reference/pull/6) ([goodviber](https://github.com/goodviber))
+
 ## [v3.6.15](https://github.com/goodviber/dfe-reference/tree/v3.6.15) (2024-11-21)
 
 [Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.14...v3.6.15)
