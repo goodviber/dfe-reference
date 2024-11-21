@@ -66,7 +66,7 @@ task :tag_and_push_release do
 
   puts "Release #{v_version} has been pushed. Please mark a Github release by visiting https://github.com/DFE-Digital/dfe-reference-data/releases/new?tag=#{v_version}"
 end
-
+# just a comment
 # Update the docs in docs/bigquery.md to reflect any changes to this list:
 
 BIGQUERY_TABLES = [
