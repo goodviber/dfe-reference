@@ -1,10 +1,13 @@
 name: Feed Bigquery
 on:
-  push:
+  pull_request:
     branches:
       - main
+    types: [closed]
+
 jobs:
   run-rake:
+    if: ${{ github.event.pull_request.merged }}
     runs-on: ubuntu-latest
     permissions:
       contents: write
