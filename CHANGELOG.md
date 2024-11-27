@@ -1,5 +1,13 @@
 # Changelog
 
+## [v3.6.20](https://github.com/goodviber/dfe-reference/tree/v3.6.20) (2024-11-27)
+
+[Full Changelog](https://github.com/goodviber/dfe-reference/compare/reference_data_.sqlite3...v3.6.20)
+
+**Merged pull requests:**
+
+- V3.6.19 [\#10](https://github.com/goodviber/dfe-reference/pull/10) ([goodviber](https://github.com/goodviber))
+
 ## [reference_data_.sqlite3](https://github.com/goodviber/dfe-reference/tree/reference_data_.sqlite3) (2024-11-27)
 
 [Full Changelog](https://github.com/goodviber/dfe-reference/compare/v3.6.16...reference_data_.sqlite3)
